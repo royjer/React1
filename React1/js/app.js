@@ -1,13 +1,9 @@
-﻿import React from 'react';
-import ReactDOM from 'react_dom';
+﻿
 
-class MyComponentClass extends React.Component {
-    render() {
-        return <h1>Hello world</h1>;
-    }
-};
+function someFunction() { alert('this isnt doing anything'); }
 
-ReactDOM.render(
-  <MyComponentClass />,
-  document.getElementById('app')
-);
+function test()
+{
+
+}
+
