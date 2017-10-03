@@ -79,7 +79,7 @@
 	            return _react2.default.createElement(
 	                'h1',
 	                null,
-	                'Hello world2 Makin a change......'
+	                'Hello world2 Makin a little change......'
 	            );
 	        }
 	    }]);
