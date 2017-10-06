@@ -69,12 +69,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bundle.js" />
-    <Content Include="js\index.js" />
+    <Content Include="components\topNav.jsx" />
+    <Content Include="components\footer.jsx" />
+    <None Include="components\master.jsx" />
+    <Content Include="css\master.css" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="package.json" />
     <Content Include="webpack.config.js" />
+    <Content Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -85,10 +89,12 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="js\app.js" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tsconfig.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

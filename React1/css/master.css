@@ -1,0 +1,12 @@
+﻿body { 
+    text-align:center;
+}
+.topNav{
+    color: red;
+}
+.main{
+    color: green;
+}
+.footer{
+    color: blue;
+}
